@@ -1,0 +1,63 @@
+.wrapper{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color:rgba($color:  #636060, $alpha: 0.5);
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+ 
+}
+
+.body {
+  width: 400px;
+  padding-bottom: 20px;
+  background-color: #fff;
+  font-size: 1.4rem;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.heading {
+  margin-bottom: 20px;
+}
+
+.info + .info {
+  margin-top: 20px;
+}
+
+.modal-input {
+  width: 100%;
+  margin-top: 5px;
+  margin-left: 4px;
+  outline: none;
+  padding: 4px 0;
+}
+
+.ftn-btn {
+  margin-top: 4px;
+}
+
+
+.close {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 4px;
+}
+
+span {
+  float: right;
+}
+
+// .display{
+//   display: flex;
+// }
+
+.nouser-title {
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+}

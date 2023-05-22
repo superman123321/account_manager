@@ -1,0 +1,30 @@
+:root {
+    --txt-color: #333;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: var(--txt-color);
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+ 
+tr, td {
+    padding: 4px 0;
+
+}

@@ -1,0 +1,40 @@
+
+.wrapper{
+  margin-top: 20px;
+  width: 100%;
+  font-size: 1.4rem;
+  text-align: left;
+  
+  .wrapper-header {
+    
+ 
+    border-bottom: 2px solid #0d0707;
+    position: relative;
+
+
+   
+  
+  }
+
+}
+
+.wrapper-header::before {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  
+  width: 100%;
+  
+  border-bottom: 2px solid #ccc;
+
+}
+
+
+
+
+
+
+
+
+

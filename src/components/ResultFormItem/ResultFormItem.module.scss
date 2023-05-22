@@ -1,0 +1,17 @@
+ .wrapper{
+  width: 100%;
+  padding-top: 4px;
+  line-height: 2.2rem;
+  position: relative;
+  
+ }
+
+ .wrapper::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #f2e2e2;
+
+ }
